@@ -1,0 +1,22 @@
+# Robots.txt for Neo Cognizant Labs
+# Website: https://neocognizantlabs.com
+
+User-agent: *
+Allow: /
+
+# Disallow admin areas and build files
+Disallow: /admin/
+Disallow: /_astro/
+Disallow: /assets/
+Disallow: /dump/
+
+# Allow important resources
+Allow: /assets/logo*.svg
+Allow: /favicon.svg
+Allow: /styles/
+
+# Sitemap location
+Sitemap: https://neocognizantlabs.com/sitemap-index.xml
+
+# Host (canonical domain)
+Host: https://neocognizantlabs.com
