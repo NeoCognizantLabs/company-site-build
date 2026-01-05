@@ -250,6 +250,59 @@ body {
     line-height: 1.7;
 }
 
+/* Applings tooltip */
+.applings {
+    position: relative;
+    font-weight: 600;
+    background: var(--gradient-main);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: help;
+    border-bottom: 2px dotted rgba(168, 85, 247, 0.4);
+    transition: border-color 0.3s var(--ease);
+}
+
+.applings:hover {
+    border-bottom-color: rgba(168, 85, 247, 0.8);
+}
+
+.applings::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: calc(100% + 12px);
+    left: 50%;
+    transform: translateX(-50%) translateY(8px);
+    background:white;
+    color: var(--white);
+    padding: 10px 16px;
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s var(--ease);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    z-index: 10000;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.6);
+    max-width: 320px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.applings:hover::after,
+.applings:focus::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.applings:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(168,85,247,0.12);
+    border-bottom-color: rgba(168, 85, 247, 0.9);
+}
+
 /* Floating orbs - softer */
 .hero-visual {
     position: absolute;
