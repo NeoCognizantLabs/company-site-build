@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58cc02"/>
+      <stop offset="100%" stop-color="#356d00"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a6dff"/>
+      <stop offset="100%" stop-color="#1453a3"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4b4b"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- C block (top, centered) -->
+  <rect x="64" y="48" width="384" height="224" rx="40" ry="40" fill="url(#greenGrad)"/>
+  <text x="256" y="180" font-family="Varela Round, -apple-system, sans-serif" font-size="140" font-weight="700" fill="white" text-anchor="middle" dominant-baseline="middle">C</text>
+  
+  <!-- N block (bottom-left) -->
+  <rect x="32" y="296" width="216" height="168" rx="32" ry="32" fill="url(#blueGrad)"/>
+  <text x="140" y="395" font-family="Varela Round, -apple-system, sans-serif" font-size="96" font-weight="700" fill="white" text-anchor="middle" dominant-baseline="middle">N</text>
+  
+  <!-- L block (bottom-right) -->
+  <rect x="264" y="296" width="216" height="168" rx="32" ry="32" fill="url(#redGrad)"/>
+  <text x="372" y="395" font-family="Varela Round, -apple-system, sans-serif" font-size="96" font-weight="700" fill="white" text-anchor="middle" dominant-baseline="middle">L</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58cc02"/>
+      <stop offset="100%" stop-color="#356d00"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a6dff"/>
+      <stop offset="100%" stop-color="#1453a3"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4b4b"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- C block (top) -->
+  <rect x="2" y="1" width="12" height="8" rx="2" ry="2" fill="url(#greenGrad)"/>
+  
+  <!-- N block (bottom-left) -->
+  <rect x="1" y="10" width="6" height="5" rx="1" ry="1" fill="url(#blueGrad)"/>
+  
+  <!-- L block (bottom-right) -->
+  <rect x="9" y="10" width="6" height="5" rx="1" ry="1" fill="url(#redGrad)"/>
+</svg>

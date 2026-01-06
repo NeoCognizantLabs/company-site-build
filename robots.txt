@@ -1,0 +1,8 @@
+# robots.txt for Neo Cognizant Labs
+# Allow all crawlers to index the public site and point to the sitemap
+
+User-agent: *
+Allow: /
+
+Sitemap: https://neocognizantlabs.com/sitemap.xml
+Host: neocognizantlabs.com
