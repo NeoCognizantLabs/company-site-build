@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms & Conditions - Mastery Book | Neo Cognizant Labs</title>
+  <meta name="description"
+    content="Terms and Conditions for Mastery Book - JEE NEET Mistake Tracker app by Neo Cognizant Labs.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://neocognizantlabs.com/apps/mastery-book-terms.html">
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Varela+Round&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --white: #ffffff;
+      --gray-50: #f8f9fa;
+      --gray-100: #f1f3f4;
+      --gray-200: #e8eaed;
+      --gray-300: #dadce0;
+      --gray-400: #9aa0a6;
+      --gray-500: #5f6368;
+      --gray-600: #3c4043;
+      --gray-800: #202124;
+      --gray-900: #1a1a1a;
+
+      --blue: #1453a3;
+      --violet: #ce82ff;
+      --rose: #f472b6;
+      --teal: #58cc02;
+
+      --accent-blue-start: #2a6dffff;
+      --accent-green-start: #58cc02;
+      --accent-red-start: #ff4b4b;
+
+      --gradient-main: linear-gradient(135deg, var(--blue) 0%, var(--violet) 60%, var(--rose) 100%);
+      --gradient-soft: linear-gradient(135deg, rgba(66, 133, 244, 0.08) 0%, rgba(168, 85, 247, 0.08) 100%);
+
+      --font-brand: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-app: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+      --radius-sm: 12px;
+      --radius-md: 20px;
+      --radius-lg: 28px;
+
+      --ease: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      font-family: var(--font-app);
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--gray-800);
+      background: var(--white);
+    }
+
+    .noise {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.02;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+    }
+
+    ::selection {
+      background: rgba(168, 85, 247, 0.15);
+    }
+
+    a {
+      color: var(--violet);
+      text-decoration: none;
+      transition: opacity 0.2s var(--ease);
+    }
+
+    a:hover {
+      opacity: 0.8;
+    }
+
+    /* Header */
+    .header {
+      padding: 24px 28px;
+      display: flex;
+      justify-content: center;
+      background: transparent;
+    }
+
+    .header-inner {
+      max-width: 800px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-family: var(--font-brand);
+      color: var(--gray-800);
+    }
+
+    .logo-stack {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .logo-stack-top .logo-block {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      font-size: 10px;
+    }
+
+    .logo-stack-bottom {
+      display: inline-flex;
+      gap: 3px;
+    }
+
+    .logo-stack-bottom .logo-block {
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      font-size: 8px;
+    }
+
+    .logo-block {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255, 255, 255, 1);
+      font-weight: 700;
+      box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.16);
+    }
+
+    .logo-block-n {
+      background: linear-gradient(135deg, var(--accent-blue-start) 0%, var(--blue) 100%);
+    }
+
+    .logo-block-c {
+      background: linear-gradient(135deg, var(--accent-green-start) 0%, var(--teal) 75%);
+    }
+
+    .logo-block-l {
+      background: linear-gradient(135deg, var(--accent-red-start) 0%, var(--rose) 75%);
+    }
+
+    .logo-text {
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .back-link {
+      font-size: 14px;
+      color: var(--gray-500);
+    }
+
+    .back-link:hover {
+      color: var(--violet);
+    }
+
+    /* Content */
+    .content {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 40px 28px 100px;
+    }
+
+    .page-label {
+      display: inline-block;
+      padding: 6px 14px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--violet);
+      background: var(--gradient-soft);
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+
+    .page-title {
+      font-size: clamp(28px, 5vw, 40px);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 8px;
+      color: var(--gray-900);
+    }
+
+    .last-updated {
+      font-size: 14px;
+      color: var(--gray-400);
+      margin-bottom: 48px;
+    }
+
+    .intro {
+      font-size: 18px;
+      color: var(--gray-600);
+      margin-bottom: 48px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--gray-200);
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 40px 0 16px;
+      color: var(--gray-900);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 .emoji {
+      font-size: 22px;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 24px 0 12px;
+      color: var(--gray-800);
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: var(--gray-600);
+    }
+
+    ul {
+      margin: 0 0 16px 24px;
+      color: var(--gray-600);
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: var(--gray-800);
+      font-weight: 600;
+    }
+
+    .highlight-box {
+      background: var(--gradient-soft);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 32px 0;
+    }
+
+    .highlight-box p {
+      margin: 0;
+      color: var(--gray-700);
+    }
+
+    .highlight-box p:not(:last-child) {
+      margin-bottom: 8px;
+    }
+
+    .note-box {
+      background: var(--gray-50);
+      border-left: 3px solid var(--violet);
+      padding: 16px 20px;
+      margin: 20px 0;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+
+    .note-box p {
+      margin: 0;
+      font-size: 14px;
+      color: var(--gray-600);
+    }
+
+    /* Footer */
+    .footer {
+      padding: 40px 28px;
+      background: var(--gray-50);
+      text-align: center;
+    }
+
+    .footer-inner {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .footer-copy {
+      font-size: 13px;
+      color: var(--gray-400);
+    }
+
+    .footer-links {
+      margin-bottom: 16px;
+    }
+
+    .footer-links a {
+      font-size: 14px;
+      color: var(--gray-500);
+      margin: 0 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">
+        <span class="logo-stack" aria-hidden="true">
+          <span class="logo-stack-top"><span class="logo-block logo-block-c">C</span></span>
+          <span class="logo-stack-bottom">
+            <span class="logo-block logo-block-n">N</span>
+            <span class="logo-block logo-block-l">L</span>
+          </span>
+        </span>
+        <span class="logo-text">Neo Cognizant Labs</span>
+      </a>
+      <a href="/apps/mastery-book.html" class="back-link">← Back to Mastery Book</a>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main class="content">
+    <div class="page-label">Mastery Book</div>
+    <h1 class="page-title">Terms & Conditions</h1>
+    <p class="last-updated">Last Updated: February 5, 2026</p>
+
+    <p class="intro">
+      Welcome to Mastery Book! By using our app, you agree to these terms. We've written them in plain English - no
+      legal jargon. Please read them carefully.
+    </p>
+
+    <h2>Acceptance of Terms</h2>
+    <p>
+      By downloading, installing, or using Mastery Book, you agree to be bound by these Terms and Conditions. If you
+      don't agree with any part of these terms, please don't use the app.
+    </p>
+
+    <h2>What Mastery Book Is</h2>
+    <p>
+      Mastery Book is a study tool designed to help students track and learn from their mistakes. It's meant to
+      supplement your studies, not replace them. We provide the platform - you provide the hard work!
+    </p>
+
+    <h2>What You Can Do</h2>
+    <p>You're free to:</p>
+    <ul>
+      <li>Create and manage your study mistakes</li>
+      <li>Add images, notes, and explanations</li>
+      <li>Organize mistakes by subject, unit, and lesson</li>
+      <li>Back up your data to your Google Drive</li>
+      <li>Use the app for personal, non-commercial purposes</li>
+      <li>Access all features included in your subscription tier</li>
+    </ul>
+
+    <h2>What You Can't Do</h2>
+    <p>Please don't:</p>
+    <ul>
+      <li>Reverse engineer or modify the app</li>
+      <li>Use the app for any illegal purpose</li>
+      <li>Upload harmful or inappropriate content</li>
+      <li>Try to hack, spam, or abuse the app</li>
+      <li>Share copyrighted study material without permission</li>
+      <li>Resell or redistribute the app</li>
+    </ul>
+
+    <h2>Subscriptions & Payments</h2>
+
+    <h3>Free Tier</h3>
+    <ul>
+      <li>Limited to 5 mistakes per subject</li>
+      <li>All core features included except adding new subject</li>
+      <li>No payment required</li>
+    </ul>
+
+    <h3>Premium (Mastery Book Pro)</h3>
+    <ul>
+      <li>Unlimited mistakes</li>
+      <li>Add new Subjects</li>
+      <li>Billed monthly or yearly through your app store</li>
+      <li>Automatically renews unless you cancel</li>
+      <li>Cancel anytime from your device's subscription settings</li>
+      <li>Refunds handled by Google Play or Apple App Store</li>
+    </ul>
+
+    <div class="note-box">
+      <p><strong>Important:</strong> We don't process payments directly. All subscriptions are managed by your app store
+        (Google Play or Apple). Their refund policies apply.</p>
+    </div>
+
+    <h2>Your Content</h2>
+    <p><strong>You own your content!</strong></p>
+    <p>
+      Everything you create in Mastery Book (mistakes, notes, images) belongs to you. We don't claim any rights to it.
+    </p>
+    <p>However, you're responsible for:</p>
+    <ul>
+      <li>Ensuring you have the right to upload content</li>
+      <li>Not violating copyright laws</li>
+      <li>Keeping your content appropriate</li>
+    </ul>
+    <p>We reserve the right to remove content that violates these terms.</p>
+
+    <h2>Data & Privacy</h2>
+    <p>
+      Your data stays on YOUR device. We don't collect or store your study notes on our servers. Backups go to YOUR
+      Google Drive. See our <a href="/apps/mastery-book-privacy.html">Privacy Policy</a> for full details.
+    </p>
+
+    <h2>Disclaimers</h2>
+
+    <h3>Educational Tool Only</h3>
+    <p>
+      Mastery Book is a study aid. We don't guarantee exam success, admission to colleges, or specific results. Your
+      success depends on your effort and preparation.
+    </p>
+
+    <h3>No Warranties</h3>
+    <p>
+      The app is provided "as is" without warranties of any kind. We strive for perfection but can't guarantee the app
+      will be error-free or always available.
+    </p>
+
+    <h3>Not Medical/Professional Advice</h3>
+    <p>
+      For NEET students: We help you track mistakes, but we're not providing medical advice or guarantees about your
+      medical career.
+    </p>
+
+    <h2>Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, we're not liable for:</p>
+    <ul>
+      <li>Lost data (always keep backups!)</li>
+      <li>Exam results or academic performance</li>
+      <li>Technical issues or downtime</li>
+      <li>Decisions you make based on app usage</li>
+      <li>Third-party services (Google Drive, app stores)</li>
+    </ul>
+    <p>
+      <strong>Maximum liability:</strong> The amount you paid for your subscription (if any) in the past 12 months.
+    </p>
+
+    <div class="note-box">
+      <p><strong>Translation:</strong> We built this app to help you succeed, but we can't be held responsible if things
+        don't go as planned. Always back up your important data!</p>
+    </div>
+
+    <h2>Changes to the App</h2>
+    <p>We're constantly improving Mastery Book! We may:</p>
+    <ul>
+      <li>Add new features</li>
+      <li>Remove or modify existing features</li>
+      <li>Update the design</li>
+      <li>Fix bugs</li>
+    </ul>
+    <p>We'll try to notify you of major changes, but we're not obligated to.</p>
+
+    <h2>Termination</h2>
+    <p>You can stop using the app anytime:</p>
+    <ul>
+      <li>Just uninstall it</li>
+      <li>Cancel your subscription</li>
+      <li>Delete your data</li>
+    </ul>
+    <p>We may terminate access if:</p>
+    <ul>
+      <li>You violate these terms</li>
+      <li>You abuse the app</li>
+      <li>Required by law</li>
+    </ul>
+    <p>Your data stays with you even if we part ways (it's on your device!).</p>
+
+    <h2>Changes to These Terms</h2>
+    <p>We may update these terms occasionally. When we do:</p>
+    <ul>
+      <li>We'll update the "Last Updated" date</li>
+      <li>Major changes will be announced in the app</li>
+      <li>Continued use means you accept the new terms</li>
+    </ul>
+    <p>Check back periodically to stay informed.</p>
+
+    <h2>Governing Law</h2>
+    <p>
+      These terms are governed by the laws of India. Any disputes will be resolved in Indian courts.
+    </p>
+
+    <h2>Contact Us</h2>
+    <p>
+      Questions about these terms? Email: <a href="mailto:daivik@neocognizantlabs.com">daivik@neocognizantlabs.com</a>
+    </p>
+
+    <div class="highlight-box">
+      <p><strong>TL;DR (Too Long; Didn't Read)</strong></p>
+      <p>• Use the app to study and track mistakes</p>
+      <p>• Don't abuse the app</p>
+      <p>• Your content is yours, your data stays with you</p>
+      <p>• Free tier = 5 mistakes per subject</p>
+      <p>• Premium = unlimited mistakes and add new subject</p>
+      <p>• We're not responsible for your exam results</p>
+      <p>• You can cancel/delete anytime</p>
+      <p>• Be nice, study hard! 📚</p>
+      <p style="margin-top: 16px;">By using Mastery Book, you agree to these terms. We're here to support your learning
+        journey! ❤️</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="/apps/mastery-book.html">Mastery Book</a>
+        <a href="/apps/mastery-book-privacy.html">Privacy Policy</a>
+      </div>
+      <p class="footer-copy">© 2026 Neo Cognizant Labs</p>
+    </div>
+  </footer>
+</body>
+
+</html>
