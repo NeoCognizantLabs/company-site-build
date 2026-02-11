@@ -6,4 +6,22 @@
     <changefreq>monthly</changefreq>
     <priority>1.00</priority>
   </url>
+  <url>
+    <loc>https://neocognizantlabs.com/apps/mastery-book.html</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://neocognizantlabs.com/apps/mastery-book-privacy.html</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://neocognizantlabs.com/apps/mastery-book-terms.html</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
 </urlset>
